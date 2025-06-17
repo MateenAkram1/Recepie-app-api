@@ -3,7 +3,7 @@ import { ENV } from './config/env.js';
 import { db } from './config/db.js';
 import { favoriteTable } from './db/schema.js';
 import { eq, and } from 'drizzle-orm'; //
-import {job} from './config/cron.js';
+import job from './config/cron.js';
 
 
 const app = express();
